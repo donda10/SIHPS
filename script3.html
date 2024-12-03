@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="userpass.css">
+        <script type="text/javascript">
+            function check()
+            {
+                var x=document.getElementById("ans1").value;
+                var y=document.getElementById("ans2").value;
+                if(x=="seinfeld" && y=="benes")
+                {
+                    window.location.href = "success.html";
+                }
+                else
+                {
+                    window.location.href = "loss.html";
+                    
+                }
+            }
+
+        </script>
+    </head>
+    <body>
+        <div>
+            <img src="C:\Users\admin\Downloads\jerry seinfeld icon.jpg">
+            <br><h2>Username</h2><br>
+            <input type="text" placeholder="enter your username" id="ans1">
+            <br><h2>Password</h2><br>
+            <input type="password" placeholder="enter your password" id="ans2">
+            <input  class="dif" type="button" onclick="check();" value="GO">
+        </div>
+    </body>
+</html>

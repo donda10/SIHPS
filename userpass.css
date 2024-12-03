@@ -1,0 +1,56 @@
+input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border: 2px solid #e2d7d7;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+
+}
+
+h2{
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: bold;
+    
+}
+
+div{
+    width: 400px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    border: 2px solid #e2d7d7 ;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+img{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 49px;
+    border: 2px solid #e2d7d7 ;
+
+}
+body{
+    background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/19672.jpg");
+    background-size: cover;
+}
+
+input::placeholder {
+    color: #1d1818;
+
+}
+
+.dif{
+    width: 100px;
+    margin-top: 20px;
+    cursor: pointer;
+}
