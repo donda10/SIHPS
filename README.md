@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:3/2/12
+## Register Number: 24900355
+## Name: Simon Malachi .S
 ## Problem Title
 Implementation of the Alumni Association platform for the University/Institute.
 ## Problem Description
